@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env
+.env.*
+
+# Django (unused DB but ignore if present)
+db.sqlite3
+
+# Local JSON persistence and exports
+# Keep the folder structure but ignore data files
+/db/*.json
+/out/*
+!/out/.gitkeep
+
+# Logs
+*.log
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
